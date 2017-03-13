@@ -12,9 +12,13 @@
 ##路径
   - 每个网址代表一种资源，所以网址中不能有动词，只能有名词，而且所用的名词往往与数据库的表格名对应。（名词复数）
     > 举例：API提供动物园（zoo）的信息，还包括各种动物和雇员的信息，则它的路径应该设计成下面这样。
+    
     > https://api.example.com/v1/zoos
+    
     > https://api.example.com/v1/animals
+    
     > https://api.example.com/v1/employees
+    
 ##HTTP动词
   - 对于资源的具体操作类型，由HTTP动词表示。
   - 常用的HTTP动词有下面5个（括号里面对应的是SQL命令）
@@ -61,7 +65,7 @@
      
      > ?animal_type_id=1 : 指定筛选条件
    
- ##七、状态码
+##七、状态码
    - 服务器向用户返回的状态码和提示信息
      > 200 OK - [GET]：服务器成功返回用户请求的数据，该操作是幂等的（Idempotent）
      
@@ -87,12 +91,12 @@
      
      > 500 INTERNAL SERVER ERROR - [*]：服务器发生错误，用户将无法判断发出的请求是否成功。
      
- ##八、错误处理
+##八、错误处理
    - 如果状态码是4XX，就应该向用户返回出错信息。一般来说，返回的信息中将error作为键名，出错的信息作为键值即可
      > { 
         error: "Invalid API key"
      }
- ##九、返回结果
+##九、返回结果
    - 针对不同操作，服务器向用户返回的结果应该符合以下规范
      > GET /collection：返回资源对象的列表（数组）
      
@@ -106,9 +110,9 @@
      
      > DELETE /collection/resource：返回一个空文档
      
- ##十、Hypermedia API
+##十、Hypermedia API
    - RESTful API 最好做到Hypermedia，即返回结果中提供的链接，连向其他API方法
  
- ##十一、其他
+##十一、其他
    - API的身份认证应该使用OAuth2.0框架
    - 服务器返回的数据格式，应该尽量使用JSON，避免使用XML。
