@@ -9,3 +9,6 @@
 - PHP
   - [符合PSR-1/PSR-2的PHP编程规范实例] (https://github.com/WeekTripCN-Org/StackForMe/blob/master/CodeStyle/psr1-2.php)
   - [软件设计模式] (https://github.com/WeekTripCN-Org/StackForMe/blob/master/DesignPattern/)
+
+- REST
+  - [RESTful API 设计指南] (https://github.com/WeekTripCN-Org/StackForMe/blob/master/RESTful%20Api/RESTful%20API.md)
