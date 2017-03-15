@@ -12,4 +12,4 @@
   - [后期静态绑定](https://github.com/WeekTripCN-Org/StackForMe/blob/master/OtherList/Static.md)
   
 - REST
-  - [RESTful API 设计指南] (https://github.com/WeekTripCN-Org/StackForMe/blob/master/RESTful%20Api/RESTful%20API.md)
+  - [RESTful API 设计指南](https://github.com/WeekTripCN-Org/StackForMe/blob/master/RESTful%20Api/RESTful%20API.md)
