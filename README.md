@@ -2,7 +2,7 @@
 
 <br/>
 
-> 个人知识储备记录
+> 个人知识储备
 
 ## 目录
 
@@ -13,3 +13,7 @@
   
 - REST
   - [RESTful API 设计指南](https://github.com/WeekTripCN-Org/StackForMe/blob/master/RESTful%20Api/RESTful%20API.md)
+  
+- 微信小程序
+  - [商城小程序Demo](https://github.com/WeekTripCN-Org/StackForMe/tree/master/BieChi)
+  
