@@ -25,14 +25,14 @@ Page({
     // 页面关闭
   },
   bindload(e){
-    // setTimeout(App.WxService.getStorageSync('token') ? this.getIndex : this.goLogin, 3000)
+    setTimeout(App.WxService.getStorageSync('token') ? this.getIndex : this.goLogin, 3000)
   },
   goIndex(){
-    // App.WxService.switchTab({
-    //   url:'pages/index/index'
-    // })
+    App.WxService.switchTab({
+      url:'pages/index/index'
+    })
   },
   goLogin() {
-    // App.WxService.redirectTo('/pages/login/index')
+    App.WxService.redirectTo('/pages/login/index')
   }
 })
